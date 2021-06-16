@@ -1,6 +1,8 @@
 # sideproject1_smartfarm-health
 
-#요역
+#요약
+
+
   앱-서버-아두이노 형태로 연결했습니다.
   
   
@@ -15,6 +17,8 @@
   
 
 ##accounts
+
+
   계정에 관한 정보를 담고 있습니다.
   
   
