@@ -1,0 +1,26 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 14, 2022 - 08:48:27
+Django version 4.0.6, using settings 'smartfarm.settings'
+Starting development server at http://0:5000/
+Quit the server with CONTROL-C.
+Not Found: /
+[14/Jul/2022 08:48:49] "GET / HTTP/1.1" 404 2277
+[14/Jul/2022 08:48:50] "GET /admin/ HTTP/1.1" 200 6384
+[14/Jul/2022 08:48:54] "GET /admin/healthapi/healthdata/ HTTP/1.1" 200 8150
+[14/Jul/2022 08:48:54] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[14/Jul/2022 08:48:59] "GET /admin/farmapi/farminfo/ HTTP/1.1" 200 7467
+[14/Jul/2022 08:49:00] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[14/Jul/2022 08:49:01] "GET /admin/farmapi/farmdata/ HTTP/1.1" 200 8421
+[14/Jul/2022 08:49:01] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+[14/Jul/2022 08:49:21] "GET /farm/ HTTP/1.1" 200 12032
+[14/Jul/2022 08:49:26] "GET /farm/farm1 HTTP/1.1" 301 0
+[14/Jul/2022 08:49:26] "GET /farm/farm1/ HTTP/1.1" 200 12175
+Not Found: /farm/farm1/post
+[14/Jul/2022 08:49:31] "GET /farm/farm1/post HTTP/1.1" 404 10240
+[14/Jul/2022 08:49:43] "GET /admin/farmapi/farminfo/ HTTP/1.1" 200 7467
+[14/Jul/2022 08:49:43] "GET /admin/jsi18n/ HTTP/1.1" 200 8911
+Not Found: /farm/farm1/post
+[14/Jul/2022 08:49:47] "GET /farm/farm1/post HTTP/1.1" 404 10240
